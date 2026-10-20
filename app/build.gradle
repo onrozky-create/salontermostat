@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'tr.ev.akilliev'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'tr.ev.akilliev'
+        minSdk 19
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
